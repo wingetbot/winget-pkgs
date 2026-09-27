@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/25
+# Automatically updated by the winget bot at 2026/Sep/27
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: XiaoweiCloud.CalendarTask
-PackageVersion: 3.32.308.9360
+PackageVersion: 3.32.308.9365
 InstallerLocale: en-US
 InstallerType: nullsoft
 Scope: user
@@ -19,6 +19,6 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x86
   InstallerUrl: https://download.xdiarys.com/windows/xdiarys-setup-v3.exe
-  InstallerSha256: 5838CBD4E081A5EF87A13BEB7DFEF2C8F4282D25753040C69C62B54705F8D3B7
+  InstallerSha256: 26386806D339000E5CF7CAE6775CAAF8DBDEA1CBAAA2ADDE25AFDAB5C049ED8E
 ManifestType: installer
 ManifestVersion: 1.28.0
