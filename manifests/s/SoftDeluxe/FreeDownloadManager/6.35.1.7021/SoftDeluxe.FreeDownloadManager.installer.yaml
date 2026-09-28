@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Sep/28
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: SoftDeluxe.FreeDownloadManager
-PackageVersion: 6.35.0.7018
+PackageVersion: 6.35.1.7021
 InstallerType: inno
 UpgradeBehavior: install
 Protocols:
@@ -17,13 +17,13 @@ Installers:
 - Architecture: x64
   Scope: user
   InstallerUrl: https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe
-  InstallerSha256: BEA279BD5DCB904EF03982A4993E567C86A846E86A696E6B5D50CE5C69D5BF80
+  InstallerSha256: 053C7917C490984FB93C8CC74F40ADA7DC83F1653438520E96B42A4AFF69A5D8
   InstallerSwitches:
     Custom: /CURRENTUSER
 - Architecture: x64
   Scope: machine
   InstallerUrl: https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe
-  InstallerSha256: BEA279BD5DCB904EF03982A4993E567C86A846E86A696E6B5D50CE5C69D5BF80
+  InstallerSha256: 053C7917C490984FB93C8CC74F40ADA7DC83F1653438520E96B42A4AFF69A5D8
   InstallerSwitches:
     Custom: /ALLUSERS
 ManifestType: installer
