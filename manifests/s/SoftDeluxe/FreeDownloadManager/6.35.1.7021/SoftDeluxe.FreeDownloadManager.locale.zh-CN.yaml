@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Sep/28
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
 
 PackageIdentifier: SoftDeluxe.FreeDownloadManager
-PackageVersion: 6.35.0.7018
+PackageVersion: 6.35.1.7021
 PackageLocale: zh-CN
 License: 免费软件
 ShortDescription: Free Download Manager（简称 FDM）是一款免费、高效且全面的下载管理解决方案，可帮助您管理所有下载任务。
