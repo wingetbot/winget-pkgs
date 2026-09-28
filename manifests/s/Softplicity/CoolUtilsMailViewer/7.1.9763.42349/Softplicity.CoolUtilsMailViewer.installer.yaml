@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/12
+# Automatically updated by the winget bot at 2026/Sep/28
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Softplicity.CoolUtilsMailViewer
-PackageVersion: 7.1.9747.33336
+PackageVersion: 7.1.9763.42349
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -25,6 +25,6 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.coolutils.com/Downloads/MailViewer.exe
-  InstallerSha256: FD45DBEC6E249C13044C787E62C563B1430EE1BC45110931F63DBC22D7D07A63
+  InstallerSha256: 9E25F6F3A10739F21DDF25184C300850B16EE792F209D48462D56640173FA5C5
 ManifestType: installer
 ManifestVersion: 1.28.0
