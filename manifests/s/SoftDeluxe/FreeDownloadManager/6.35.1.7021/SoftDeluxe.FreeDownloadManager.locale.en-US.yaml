@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Sep/28
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: SoftDeluxe.FreeDownloadManager
-PackageVersion: 6.35.0.7018
+PackageVersion: 6.35.1.7021
 PackageLocale: en-US
 Publisher: Softdeluxe
 PublisherSupportUrl: https://www.freedownloadmanager.org/support.htm
