@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/25
+# Automatically updated by the winget bot at 2026/Sep/29
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: XiaoweiCloud.CalendarTask
-PackageVersion: 3.32.308.9360
+PackageVersion: 3.32.309.9366
 PackageLocale: en-US
 Publisher: Xiaowei Cloud, Inc.
 PublisherUrl: https://www.xdiarys.com/
