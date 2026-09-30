@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/21
+# Automatically updated by the winget bot at 2026/Sep/30
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: LMCP.LocalMCP
-PackageVersion: 3.0.413
+PackageVersion: 3.0.415
 Platform:
 - Windows.Desktop
 MinimumOSVersion: 10.0.17763.0
@@ -11,7 +11,7 @@ InstallerType: inno
 Installers:
 - Architecture: x64
   InstallerUrl: https://download.local-mcp.com/LMCP-Setup.exe
-  InstallerSha256: 53CCD3BA849BA3CC04E57AB02699236BCB6215830D32FB298E1AD996CB46133C
+  InstallerSha256: 7EACBD884C315F8DAE3F295AA177D0DEAA1CCCDF8D0DB311943F4C80939D8B88
   InstallerLocale: en-US
   InstallerSwitches:
     Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
