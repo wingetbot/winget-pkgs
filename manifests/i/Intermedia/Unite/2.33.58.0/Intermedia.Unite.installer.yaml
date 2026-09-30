@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Aug/27
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Sep/30
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Intermedia.Unite
-PackageVersion: 2.32.143.0
+PackageVersion: 2.33.58.0
 UpgradeBehavior: install
 Protocols:
 - anymeeting
@@ -11,21 +11,21 @@ Installers:
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://cp.intermedia.net/voice/pbx/softphonereleases/default/latest-win/intermedia-unite-ia32.msi
-  InstallerSha256: 0A235E3B7703523C4A144885D68A0C922CE0CC81491778F7475E492D77DAC3B1
+  InstallerSha256: 09F07C8EFB2B1E0747EF991938B144F921742A84EE8271D319E638F9F56859AF
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{C2ED64BD-1CF9-447A-9B2C-C185D622F5E2}'
+  ProductCode: '{91E1A13B-FF4A-495E-9036-C0EC6D899B91}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{809A6B87-78EB-4ABA-98DE-19BE959BA7A9}'
 - Architecture: x64
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://cp.intermedia.net/voice/pbx/softphonereleases/default/latest-win/intermedia-unite-x64.msi
-  InstallerSha256: 97E5107F3DF06D881CF1630FF69B1DF228DE647176FB782EDF4928FAA4FCDEAF
+  InstallerSha256: 952C14097E77FA2E17C81E7D44AC5A94D1A3AABA2FD628F93EFA57F55E5D75C7
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{57397122-1DBA-4F28-99C5-F948CC331CC6}'
+  ProductCode: '{32BA1E22-8259-4634-8558-7C81A32B56E6}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{809A6B87-78EB-4ABA-98DE-19BE959BA7A9}'
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
