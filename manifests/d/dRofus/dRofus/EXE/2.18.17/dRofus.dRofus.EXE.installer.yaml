@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: dRofus.dRofus.EXE
-PackageVersion: 2.18.16
+PackageVersion: 2.18.17
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -18,6 +18,6 @@ ReleaseDate: 2026-08-26
 Installers:
 - Architecture: x86
   InstallerUrl: https://deploy.drofus.com/stable/setup.exe
-  InstallerSha256: 73932DE0A7E364C29FA6BDA85CB0A121798CE14B282A05ED44064421F24D4427
+  InstallerSha256: B7C8CB8AA363163CDB6627219C711FDAD1DA84633BED01D83EFC5D16B6B6B0C6
 ManifestType: installer
 ManifestVersion: 1.12.0
