@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/24
+# Automatically updated by the winget bot at 2026/Sep/30
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: BitSum.ProcessLasso.Beta
-PackageVersion: 18.4.0.33
+PackageVersion: 18.4.0.45
 PackageLocale: en-US
 Publisher: Bitsum
 PublisherUrl: https://bitsum.com/
