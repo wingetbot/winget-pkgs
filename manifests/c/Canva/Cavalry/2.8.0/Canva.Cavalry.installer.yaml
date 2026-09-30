@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 v2.7.2 $debug=NVS1.CRLF.7-6-2.Win32NT
+# Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Canva.Cavalry
-PackageVersion: 2.7.2
+PackageVersion: 2.8.0
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
@@ -13,12 +13,13 @@ Protocols:
 FileExtensions:
 - cv
 - pal
-ProductCode: '{2E8CC5AB-4D25-4A54-8DE5-219F44DD2EC6}'
+ProductCode: '{1D19CE5C-2077-4B58-B662-E420C8F195F6}'
+ReleaseDate: 2026-09-30
 AppsAndFeaturesEntries:
 - UpgradeCode: '{785D7065-3388-4F29-9FD8-C62159A7CF41}'
 Installers:
 - Architecture: x64
   InstallerUrl: https://cavalry.studio/downloads/latest/Cavalry.msi
-  InstallerSha256: 1FEC9EF506427F906F5B0AACAE702F448A25498E021D9BF155702081A3A43686
+  InstallerSha256: 5409D19515665BE1C3F27F247D5A31DF36657048D1DF448B1327A4EB8E04AAEB
 ManifestType: installer
 ManifestVersion: 1.12.0
