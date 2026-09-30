@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/24
+# Automatically updated by the winget bot at 2026/Sep/30
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: BitSum.ProcessLasso.Beta
-PackageVersion: 18.4.0.33
+PackageVersion: 18.4.0.45
 InstallerType: nullsoft
 Scope: machine
 UpgradeBehavior: install
@@ -13,6 +13,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x64
   InstallerUrl: https://dl.bitsum.com/files/beta/processlassosetup64.exe
-  InstallerSha256: BFE678A7FF4AD0EDE8493D4005D24D418D4092B54F39D39BA838F881FD341674
+  InstallerSha256: 31A26B5398FFD49E62824F35F061EC0E54C19B7F04110AC010A1BD6CCAE4A4E2
 ManifestType: installer
 ManifestVersion: 1.28.0
