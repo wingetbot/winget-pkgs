@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Muse.MuseHub
-PackageVersion: 2.9.3.2300
+PackageVersion: 3.4.0.2334
 InstallerType: exe
 InstallModes:
 - interactive
@@ -14,10 +14,10 @@ UpgradeBehavior: install
 Protocols:
 - musehub
 ProductCode: MuseHub
-ReleaseDate: 2026-09-08
+ReleaseDate: 2026-10-01
 Installers:
 - Architecture: x64
   InstallerUrl: https://muse-cdn.com/Muse_Hub.exe
-  InstallerSha256: 099900FBB51BEF86E7EEA304D46FDAC30C49B9DD2D7F86624E5DBA5B7652F4F8
+  InstallerSha256: 042A0096799A6B8B23AA9BA97D9D76A1068E36ED840446981E6C9A724E06BA47
 ManifestType: installer
 ManifestVersion: 1.12.0
