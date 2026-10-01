@@ -2,14 +2,14 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: VovSoft.VCFEditor
-PackageVersion: 3.2.0.0
+PackageVersion: 3.3.0.0
 InstallerLocale: en-US
 Installers:
 - Architecture: x86
   InstallerType: inno
   Scope: machine
   InstallerUrl: https://files.vovsoft.com/vcf-editor.exe
-  InstallerSha256: 7BC8649D5543C1CCAAB470204A5A0FC75E0D10C7B1B19DCF8D9BBE3966EE05F7
+  InstallerSha256: C732EDB18043F5F41DBC6FBEF8823B6DCBECDA47FD12A9F577B5EBBD8762D9C7
   InstallModes:
   - interactive
   - silent
@@ -31,8 +31,8 @@ Installers:
   - RelativeFilePath: vcfeditor.exe
     PortableCommandAlias: vcfeditor
   InstallerUrl: https://files.vovsoft.com/vcf-editor-portable.zip
-  InstallerSha256: 51362F62D64A13AD90FB496E548D6F6B43704583A4FFC04EF0CC013BD77A4535
+  InstallerSha256: 3287F2D3673664EFC65B461D8933043F55BFEFF154C4D9757485FB4A8B4BCA92
   ArchiveBinariesDependOnPath: true
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-09-26
+ReleaseDate: 2026-09-30
