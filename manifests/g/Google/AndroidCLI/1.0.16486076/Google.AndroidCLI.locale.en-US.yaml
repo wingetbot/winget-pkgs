@@ -1,5 +1,5 @@
-# Created by Anthelion using komac v2.17.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Google.AndroidCLI
 PackageVersion: 1.0.16486076
@@ -26,4 +26,4 @@ Tags:
 - emulator
 ReleaseNotesUrl: https://developer.android.com/tools/agents/android-cli/release-notes
 ManifestType: defaultLocale
-ManifestVersion: 1.28.0
+ManifestVersion: 1.12.0
