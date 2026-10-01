@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: HHDSoftware.VirtualSerialPortTools
-PackageVersion: 7.35.00.1756
+PackageVersion: 7.35.01.1760
 PackageLocale: en-US
 Publisher: HHD Software, Ltd.
 PublisherUrl: https://hhdsoftware.com/
@@ -25,12 +25,9 @@ Tags:
 - serial-port
 - virtual-serial-port
 ReleaseNotes: |-
-  New Features
-  Resident license support for OEM licenses
-  It is now possible for a controlling application to install a resident license that will only be stored in caller's memory. It is now also possible to restrict the functionality of created virtual serial ports.
   Bug Fixes
-  RTS/DTR clear on disconnect
-  RTS and DTR lines are now cleared on disconnect for network ports.
+  System UI is displayed if drivers are missing
+  System UI will no longer be displayed in case the driver was manually uninstalled. Instead, an API call to create a virtual serial port immediately returns an error.
 ReleaseNotesUrl: https://hhdsoftware.com/virtual-serial-port-tools/history
 PurchaseUrl: https://hhdsoftware.com/virtual-serial-port-tools#pr-prices
 Documentations:
