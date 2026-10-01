@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Aug/19
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/01
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: NAVER.Whale
-PackageVersion: 4.39.410.14
+PackageVersion: 5.39.412.57
 InstallerType: exe
 InstallerSwitches:
   Silent: /silent
@@ -12,12 +12,12 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x86
   InstallerUrl: https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupX86.exe
-  InstallerSha256: 28201640DFA42CF749502FD30A6D922197CB1F2B67C9FED5A6EF4A2FD11B3D2C
+  InstallerSha256: 5884938AE73EF7B6655D99C2F0EC2292C980CE975BE9DA49DD5685BAC17525A6
 - Architecture: x64
   InstallerUrl: https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupX64.exe
-  InstallerSha256: AC03A1559CFED22AFCC2C7330FFB4A127B965CABBC4FF96C0A9762123A759CD2
+  InstallerSha256: E206D97D863393A5CCD21A871C01F1BDC782FDE5B356A379CC2E5B17C1768610
 - Architecture: arm64
   InstallerUrl: https://installer-whale.pstatic.net/downloads/sa_installers/WhaleSetupARM64.exe
-  InstallerSha256: 9A6300875F65D3D4668198D21881C0F915C538F725152E24A931A36B62C2D0D5
+  InstallerSha256: 650BDA30083C3C07932E3499B51FA73762B5FF0A0B84FCE2E757B79390760E14
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
