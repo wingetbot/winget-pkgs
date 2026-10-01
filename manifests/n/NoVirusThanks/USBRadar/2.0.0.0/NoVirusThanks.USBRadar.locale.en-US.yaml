@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2025/Oct/15
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/01
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: NoVirusThanks.USBRadar
-PackageVersion: 1.9.0.0
+PackageVersion: 2.0.0.0
 PackageLocale: en-US
 Publisher: NoVirusThanks Company Srl
 PublisherUrl: https://www.novirusthanks.com/company/
@@ -19,4 +19,4 @@ Description: USB Radar is a service-only application that tracks USB device even
 ReleaseNotesUrl: https://www.usbradar.com/changelog/#:~:text=v1.7.0.0
 PurchaseUrl: https://www.usbradar.com/pricing/
 ManifestType: defaultLocale
-ManifestVersion: 1.10.0
+ManifestVersion: 1.28.0
