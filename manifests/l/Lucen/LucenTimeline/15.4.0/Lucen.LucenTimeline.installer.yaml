@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Lucen.LucenTimeline
-PackageVersion: 15.3.0
+PackageVersion: 15.4.0
 InstallerType: zip
 NestedInstallerType: wix
 NestedInstallerFiles:
@@ -14,29 +14,29 @@ Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.VSTOR
   - PackageIdentifier: Microsoft.EdgeWebView2Runtime
-ProductCode: '{1EE4291A-CCE4-4666-8E58-39A9EAE1D083}'
-ReleaseDate: 2026-09-14
+ProductCode: '{C0EC975B-644A-4204-9F61-D8819F21473F}'
+ReleaseDate: 2026-10-01
 AppsAndFeaturesEntries:
 - UpgradeCode: '{8E493579-8C4D-4530-8A2E-B338DB490784}'
 Installers:
 - Architecture: x86
   Scope: user
   InstallerUrl: https://www.lucensoftware.com/website/content/download/install/latest/LucenTimelinePreExtracted.zip
-  InstallerSha256: 7ECA5E307175ED31CF445D939B8898BA03983F0182D2DBF3FFCB25311EB33194
+  InstallerSha256: E55E548E0D73AB1541054009A516453780988C6F683BBC27FAB6A2BECC910122
 - Architecture: x64
   Scope: user
   InstallerUrl: https://www.lucensoftware.com/website/content/download/install/latest/LucenTimelinePreExtracted.zip
-  InstallerSha256: 7ECA5E307175ED31CF445D939B8898BA03983F0182D2DBF3FFCB25311EB33194
+  InstallerSha256: E55E548E0D73AB1541054009A516453780988C6F683BBC27FAB6A2BECC910122
 - Architecture: x86
   Scope: machine
   InstallerUrl: https://www.lucensoftware.com/website/content/download/install/latest/LucenTimelinePreExtracted.zip
-  InstallerSha256: 7ECA5E307175ED31CF445D939B8898BA03983F0182D2DBF3FFCB25311EB33194
+  InstallerSha256: E55E548E0D73AB1541054009A516453780988C6F683BBC27FAB6A2BECC910122
   InstallerSwitches:
     Custom: ALLUSERS=1
 - Architecture: x64
   Scope: machine
   InstallerUrl: https://www.lucensoftware.com/website/content/download/install/latest/LucenTimelinePreExtracted.zip
-  InstallerSha256: 7ECA5E307175ED31CF445D939B8898BA03983F0182D2DBF3FFCB25311EB33194
+  InstallerSha256: E55E548E0D73AB1541054009A516453780988C6F683BBC27FAB6A2BECC910122
   InstallerSwitches:
     Custom: ALLUSERS=1
 ManifestType: installer
