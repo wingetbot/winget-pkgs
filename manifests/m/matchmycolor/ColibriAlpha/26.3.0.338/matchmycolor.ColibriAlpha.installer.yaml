@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: matchmycolor.ColibriAlpha
-PackageVersion: 26.3.0.442
+PackageVersion: 26.3.0.338
 InstallerType: exe
 InstallerSwitches:
   Silent: /s
@@ -14,7 +14,7 @@ Dependencies:
   - PackageIdentifier: Microsoft.VCRedist.2015+.x86
 Installers:
 - Architecture: x86
-  InstallerUrl: https://cdn.matchmycolor.com/colibri/26.3.0/Colibri_26.3.0-alpha.442.exe
-  InstallerSha256: 17E09883CC550116CAE2AEFC8269E7A8288E1A259E3F8E612AE746D5CEC9D823
+  InstallerUrl: https://cdn.matchmycolor.com/colibri/26.3.0/Colibri_26.3.0-alpha.338.exe
+  InstallerSha256: 9574BAFD065F3DE2A95188D22A760703F3D6A6CEFE696705A0BC957BF6865CED
 ManifestType: installer
 ManifestVersion: 1.12.0
