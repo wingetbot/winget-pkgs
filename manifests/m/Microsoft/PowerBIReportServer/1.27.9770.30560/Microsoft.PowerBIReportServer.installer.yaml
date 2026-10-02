@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Microsoft.PowerBIReportServer
-PackageVersion: 1.27.9767.40555
+PackageVersion: 1.27.9770.30560
 InstallerType: burn
 Scope: machine
 InstallerSwitches:
@@ -14,6 +14,6 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x64
   InstallerUrl: https://download.microsoft.com/download/2/d/a/2da81ea3-040a-4d08-a593-6bebc3bf97e8/PowerBIReportServer.exe
-  InstallerSha256: AE894A5ABE2C4D527FB143BFCDA0EA17A969CA785527339BBB67C9DEEA2D0B2A
+  InstallerSha256: 145513A4C198A01A9A819724AC3143649C39746E42B9A26BF7C034536C7A15E0
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
