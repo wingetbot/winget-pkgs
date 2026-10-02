@@ -1,8 +1,8 @@
-# Created using wingetcreate 1.12.13.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Easeware.DriverEasy
-PackageVersion: 7.2.1.6251
+PackageVersion: 7.2.1.6390
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -21,7 +21,7 @@ InstallationMetadata:
 Installers:
 - Architecture: x86
   InstallerUrl: https://download.drivereasy.com/DriverEasy_Setup.exe
-  InstallerSha256: 410E5B3192878A70D6010E4ACC9CEFBB1F281C9A56283382B82C129229412237
+  InstallerSha256: 01213B73ED93FD1D5A4BBA1F9795EBDC0CA4A03DDA29941521E29D3E9BEF91AB
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
 ReleaseDate: 2026-09-21
