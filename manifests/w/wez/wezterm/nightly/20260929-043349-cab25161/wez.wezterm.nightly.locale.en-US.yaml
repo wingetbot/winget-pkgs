@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/21
+# Automatically updated by the winget bot at 2026/Oct/02
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: wez.wezterm.nightly
-PackageVersion: 20260917-114457-b09b56c2
+PackageVersion: 20260929-043349-cab25161
 PackageLocale: en-US
 Publisher: Wez Furlong
 PublisherUrl: https://github.com/wezterm
