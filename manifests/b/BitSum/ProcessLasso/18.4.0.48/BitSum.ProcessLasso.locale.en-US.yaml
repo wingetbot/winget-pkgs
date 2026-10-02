@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/02
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: BitSum.ProcessLasso
-PackageVersion: 18.3.0.34
+PackageVersion: 18.4.0.48
 PackageLocale: en-US
 Publisher: Bitsum
 PublisherUrl: https://bitsum.com/
@@ -55,4 +55,4 @@ Documentations:
 - DocumentLabel: FAQ
   DocumentUrl: https://bitsum.com/process-lasso-faq/
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
