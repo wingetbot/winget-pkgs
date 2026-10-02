@@ -2,17 +2,17 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Danfoss.CoolConfig
-PackageVersion: 7.0.0.334
+PackageVersion: 7.0.1.336
 InstallerType: inno
 Scope: user
 FileExtensions:
 - ccfd
 - ccfg
 ProductCode: Danfoss CoolConfig_is1
-ReleaseDate: 2026-09-23
+ReleaseDate: 2026-10-02
 Installers:
 - Architecture: x86
   InstallerUrl: https://coolconfig.danfoss.com/coolconfig/coolconfig.exe
-  InstallerSha256: E687725A1A4DD5EF46A23A6921229C7F255202B4FCCEE63A2620A57EA99F2B9E
+  InstallerSha256: 8BDC701406477FC0BEEEB585D74C86A3D938AD96826ADF36D24CB7F3C20018C0
 ManifestType: installer
 ManifestVersion: 1.12.0
