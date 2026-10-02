@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Aug/26
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: Microstockr.Desktopapp
-PackageVersion: 3.4.29
+PackageVersion: 3.4.30
 PackageLocale: en-US
 Publisher: Microstockr
 PublisherUrl: https://microstockr.com
@@ -18,4 +18,4 @@ CopyrightUrl: https://microstockr.com/terms-conditions
 ShortDescription: Microstock photography made easy
 Moniker: microstockr
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
