@@ -1,12 +1,12 @@
-# Automatically updated by the winget bot at 2025/May/22
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: AirMyPC.AirMyPC
-PackageVersion: "7.2.0"
+PackageVersion: "8.1.0"
 InstallerType: inno
 Installers:
 - InstallerUrl: https://www.airmypc.com/download/AirMyPC.exe
   Architecture: neutral
-  InstallerSha256: 222D9A00E4BCB17BB1DCE499C43D9D53288A4F3CE633B69A0D1EE809DFAE8D2A
+  InstallerSha256: 0D8EA79DB2C8FB25FA372024CBD6DEC6DEAA403C65F51C506BEE3866A22C756E
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.28.0
