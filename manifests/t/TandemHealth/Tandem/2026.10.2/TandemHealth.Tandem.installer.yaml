@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: TandemHealth.Tandem
-PackageVersion: 2026.10.1
+PackageVersion: 2026.10.2
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -14,10 +14,10 @@ InstallerSwitches:
 Protocols:
 - tandemhealth
 ProductCode: Tandem
-ReleaseDate: 2026-10-01
+ReleaseDate: 2026-10-02
 Installers:
 - Architecture: x64
   InstallerUrl: https://tandemhealth.blob.core.windows.net/tandem-public/native/Tandem-win-Setup.exe
-  InstallerSha256: 4B91ACBEB5674881CF550746147934BF59DD192C9FA8A31903692A4995861A10
+  InstallerSha256: 6AAC5ABE8A14876CDFBFB8ADA5D9E575D37B5B68CB4293E9F341CD8D13C363DD
 ManifestType: installer
 ManifestVersion: 1.12.0
