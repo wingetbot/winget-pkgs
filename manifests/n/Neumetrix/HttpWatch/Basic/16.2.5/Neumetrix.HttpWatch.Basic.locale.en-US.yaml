@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Neumetrix.HttpWatch.Basic
-PackageVersion: 16.2.4
+PackageVersion: 16.2.5
 PackageLocale: en-US
 Publisher: Neumetrix Limited
 PublisherUrl: https://www.httpwatch.com/
@@ -26,8 +26,8 @@ Tags:
 - web
 - webpage
 ReleaseNotes: |-
-  - Fixed: HttpWatch could crash when a Edge or Chrome tab was closed
-  - Improved: The installer now displays an explanation of why elevation failed if it was blocked by group policy
+  - Fixed: HttpWatch could crash when a Edge or Chrome tab was closed while recording was active
+  - Improved: The installer no longer uses child processes making the installation faster and more robust in some locked down environments
 ReleaseNotesUrl: https://www.httpwatch.com/download/versionhistory/
 PurchaseUrl: https://www.httpwatch.com/buy/
 Documentations:
