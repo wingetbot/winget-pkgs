@@ -1,13 +1,13 @@
-# Automatically updated by the winget bot at 2026/Sep/18
+# Automatically updated by the winget bot at 2026/Oct/02
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: payhereinc.PayhereSeller
-PackageVersion: 3.5.9
+PackageVersion: 3.6.0
 InstallerType: nullsoft
 Installers:
 - Architecture: x86
   InstallerUrl: https://desktop.payhere.in/windows/Payhere-Seller.exe
-  InstallerSha256: AF5A01F00A0AB5243FC5015E10DBFE89D7D533B033EB29388EB2B63DC7F363C3
+  InstallerSha256: 1932C0B00034FA7D9B42EA528E2836F0000504857D17C27D4218B873624B475D
   AppsAndFeaturesEntries:
   - Publisher: payhere inc.
     ProductCode: 2778135c-49fa-5035-8784-a1c823cb0e8d
