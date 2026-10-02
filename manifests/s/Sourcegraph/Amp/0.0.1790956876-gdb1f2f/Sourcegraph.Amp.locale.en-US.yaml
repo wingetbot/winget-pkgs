@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Sourcegraph.Amp
-PackageVersion: 0.0.1790942453-g299c9d
+PackageVersion: 0.0.1790956876-gdb1f2f
 PackageLocale: en-US
 Publisher: Sourcegraph, Inc.
 PublisherUrl: https://ampcode.com/
