@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/02
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
 
 PackageIdentifier: BitSum.ProcessLasso
-PackageVersion: 18.3.0.34
+PackageVersion: 18.4.0.48
 PackageLocale: zh-CN
 License: 专有软件
 ShortDescription: 实时 CPU 优化和自动化
@@ -25,4 +25,4 @@ Documentations:
 - DocumentLabel: 文档
   DocumentUrl: https://bitsum.com/processlasso-docs/
 ManifestType: locale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
