@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2025/May/22
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/02
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: AirMyPC.AirMyPC
-PackageVersion: "7.2.0"
+PackageVersion: "8.1.0"
 PackageLocale: en-US
 Publisher: AirMyPC
 PublisherUrl: https://www.airmypc.com/
@@ -13,4 +13,4 @@ Copyright: Copyright © AirMyPC.
 ShortDescription: Apple TV / Chromecast / Miracast universal sender for windows
 PurchaseUrl: https://www.airmypc.com/purchase.htm
 ManifestType: defaultLocale
-ManifestVersion: 1.10.0
+ManifestVersion: 1.28.0
