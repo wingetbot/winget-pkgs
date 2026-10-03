@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Oct/03
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: RingCentral.RingCentral
-PackageVersion: 26.3.2012.1787
+PackageVersion: 26.3.3012.1855
 PackageLocale: en-US
 Publisher: RingCentral
 PublisherUrl: https://www.ringcentral.com/
