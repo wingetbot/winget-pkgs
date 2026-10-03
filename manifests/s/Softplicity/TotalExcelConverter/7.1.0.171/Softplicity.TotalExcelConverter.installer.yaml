@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Oct/03
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Softplicity.TotalExcelConverter
-PackageVersion: 7.1.0.169
+PackageVersion: 7.1.0.171
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -28,6 +28,6 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.coolutils.com/Downloads/TotalExcelConverter.exe
-  InstallerSha256: FB3B879473EC8AC3705C37524BDEAF9BC0F54D1B5036A784CD8F74A083A4A6EE
+  InstallerSha256: 6A7D7FCCF75DF66D69C6EA517FA66F1BAC0E949FF9B2DE5EF4C086CFD34559CE
 ManifestType: installer
 ManifestVersion: 1.28.0
