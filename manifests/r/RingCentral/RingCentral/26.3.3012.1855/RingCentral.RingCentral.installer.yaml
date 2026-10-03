@@ -1,8 +1,8 @@
-# Created with komac v2.16.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/03
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: RingCentral.RingCentral
-PackageVersion: 26.3.1012
+PackageVersion: 26.3.3012.1855
 InstallerLocale: en-US
 UpgradeBehavior: install
 Protocols:
@@ -18,10 +18,10 @@ Installers:
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://app.ringcentral.com/download/RingCentral-x64.msi
-  InstallerSha256: CB852BDB6B20AF64A38733107F4AAF13A46BBD2A3F0EDF2FBFC5C2DFCD10908E
+  InstallerSha256: E7A9D43C9177F44A93B1F2AF58558D7E7241D08276961BC57E0A6213365867B0
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{982F7653-FA4D-41DC-94FB-7158C8A7A2DC}'
+  ProductCode: '{5A5349CC-F931-4788-AB2E-ACBF4FD1C54D}'
   AppsAndFeaturesEntries:
   - DisplayVersion: 26.3.1012.1623
     ProductCode: '{982F7653-FA4D-41DC-94FB-7158C8A7A2DC}'
@@ -32,10 +32,10 @@ Installers:
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://app.ringcentral.com/download/RingCentral-arm64.msi
-  InstallerSha256: 30B94930A4FABAA946810243500557E3529E5D80B5A7E50C0BFC3DD607C803FF
+  InstallerSha256: 70D50E9F89EDF757DA2861E2E48E4602DBDF8457489224A637EC1F62282D0CFE
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{832ECDD4-499C-488F-99D7-F736995C221E}'
+  ProductCode: '{BECC19BA-046F-4A4D-81C1-F00BC9ABA77F}'
   AppsAndFeaturesEntries:
   - DisplayVersion: 26.3.1012.1623
     ProductCode: '{832ECDD4-499C-488F-99D7-F736995C221E}'
@@ -46,7 +46,7 @@ Installers:
   InstallerType: nullsoft
   Scope: user
   InstallerUrl: https://app.ringcentral.com/download/RingCentral.exe
-  InstallerSha256: 3D3E592DD69F6A98A69AF7D119BB63F5F42F579C5AB2D2CCC2279D0025A03390
+  InstallerSha256: 7EFFFFEC0038158C40043D322DAA0347AA1D49914AB828A06A359D644DB9891C
   InstallerSwitches:
     Upgrade: --updated
   ProductCode: 584acf4c-ebc3-56fa-9cfd-586227f098ba
@@ -56,11 +56,11 @@ Installers:
   InstallerType: nullsoft
   Scope: user
   InstallerUrl: https://app.ringcentral.com/download/RingCentral-arm64.exe
-  InstallerSha256: 30A1EBC4D396BC4FAF4A406CE9A2362BBEE602D5257808A3922254A996876A16
+  InstallerSha256: 8C95A6DD19B10B141BDAAEE3D631A1F24E9CD1C304CB72478B2FC73417D48B6E
   InstallerSwitches:
     Upgrade: --updated
   ProductCode: 584acf4c-ebc3-56fa-9cfd-586227f098ba
   AppsAndFeaturesEntries:
   - DisplayVersion: 26.3.1012
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
