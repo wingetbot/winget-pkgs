@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/28
+# Automatically updated by the winget bot at 2026/Oct/03
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Softplicity.TotalAudioConverter
-PackageVersion: 6.1.0.319
+PackageVersion: 6.1.0.320
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -27,6 +27,6 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.coolutils.com/Downloads/TotalAudioConverter.exe
-  InstallerSha256: C2485D7D4196AFF2B45C88CA041A80775E93B2FEC0661BF06C457BE1A6131DB9
+  InstallerSha256: 09C8355919E32DA2C5F7C79598545B2E039874E36D40F5DBAD15CD47D9E750D8
 ManifestType: installer
 ManifestVersion: 1.28.0
