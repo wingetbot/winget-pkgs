@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/May/05
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/03
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: SoftMaker.Office.2024
-PackageVersion: 24.0.6174
+PackageVersion: 24.0.6184
 PackageLocale: en-US
 Publisher: SoftMaker Software GmbH
 PublisherUrl: https://www.softmaker.com/
@@ -25,4 +25,4 @@ Tags:
 - textmaker
 - worksheets
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
