@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Neumetrix.HttpWatch.Basic
-PackageVersion: 16.2.5
+PackageVersion: 16.0.15
 PackageLocale: en-US
 Publisher: Neumetrix Limited
 PublisherUrl: https://www.httpwatch.com/
@@ -25,9 +25,7 @@ Tags:
 - performance
 - web
 - webpage
-ReleaseNotes: |-
-  - Fixed: HttpWatch could crash when a Edge or Chrome tab was closed while recording was active
-  - Improved: The installer no longer uses child processes making the installation faster and more robust in some locked down environments
+ReleaseNotes: "- Fixed: A 'Not implemented' error could occur when using the Find window"
 ReleaseNotesUrl: https://www.httpwatch.com/download/versionhistory/
 PurchaseUrl: https://www.httpwatch.com/buy/
 Documentations:
