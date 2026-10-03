@@ -1,15 +1,15 @@
-# Automatically updated by the winget bot at 2026/Aug/18
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/03
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: SamsungSDS.BrityMessenger
-PackageVersion: 2.1.81.10
+PackageVersion: 2.1.83.9
 InstallerType: nullsoft
 Installers:
 - Architecture: x64
   InstallerUrl: https://pcdownload.britymessenger.com/pcclient/BrityMessenger_Setup.exe
-  InstallerSha256: 04FB4F961F8CE15C64C70EC648D762C2B9CFBAF25BD6FB469B74C549F930619D
+  InstallerSha256: 45762B458F89581F4ACA288ED4379163F62759CE41E38F22512BE1BEA56B7F17
   AppsAndFeaturesEntries:
   - Publisher: Samsung SDS Co., Ltd
     ProductCode: BrityMessenger
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
