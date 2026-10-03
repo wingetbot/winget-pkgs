@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/20
+# Automatically updated by the winget bot at 2026/Oct/03
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Softplicity.CoolutilsConverter
-PackageVersion: 3.1.1.155
+PackageVersion: 3.1.1.156
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -40,6 +40,6 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.coolutils.com/Downloads/CoolutilsConverter.exe
-  InstallerSha256: EB3DFDF28AB928C52E5697F33ACA804184D9F4532AEF08CA9F727CB2F5DA2EB4
+  InstallerSha256: 35DDD72E1C94170C8B8EE60D700DBA4A321259BE4E5676BDD58EE67E1F7CFDA3
 ManifestType: installer
 ManifestVersion: 1.28.0
