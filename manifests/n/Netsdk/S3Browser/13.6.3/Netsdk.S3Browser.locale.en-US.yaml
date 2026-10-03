@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Netsdk.S3Browser
-PackageVersion: 13.5.7
+PackageVersion: 13.6.3
 PackageLocale: en-US
 Publisher: Netsdk Software FZE
 PublisherUrl: https://netsdk.com/
@@ -22,11 +22,17 @@ Tags:
 - cloudfront
 - s3
 ReleaseNotes: |-
-  - Improved Amazon S3 Glacier restore cost estimates
-  - Fixed duplicate IDs when pasting Amazon S3 Lifecycle rules
-  - Improved license activation in roaming profile environments
-  - Various UI, help page, and internal stability improvements
-ReleaseNotesUrl: https://s3browser.com/news.aspx#13.5.7
+  - Added duplicate content exclusion to Folder Sync rules
+  - Faster Folder Sync analysis for deeply nested folders
+  - Improved Folder Sync comparison accuracy, selection statistics, and bulk deletion
+  - Added summary analysis output for CLI sync commands
+  - Added zoom and panning to image preview
+  - Color themes can now be changed without restarting
+  - Faster application startup
+  - Added option to finish current tasks before exiting
+  - Improved task queue saving and restoration, and transfer cancellation
+  - Various High-DPI, UI, and stability improvements
+ReleaseNotesUrl: https://s3browser.com/news.aspx#13.6.3
 Documentations:
 - DocumentLabel: FAQ
   DocumentUrl: https://s3browser.com/faq.aspx
