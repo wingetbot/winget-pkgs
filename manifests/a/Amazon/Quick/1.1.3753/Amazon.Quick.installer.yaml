@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Amazon.Quick
-PackageVersion: 1.1.3558
+PackageVersion: 1.1.3753
 InstallerType: nullsoft
 Scope: user
 InstallerSwitches:
@@ -11,10 +11,10 @@ UpgradeBehavior: install
 Protocols:
 - awsquick
 ProductCode: b51862f0-c82b-5555-9b73-180a78b7607f
-ReleaseDate: 2026-09-29
+ReleaseDate: 2026-10-03
 Installers:
 - Architecture: x64
   InstallerUrl: https://desktop.downloads.quick.aws.com/windows/x64/Amazon-Quick.exe
-  InstallerSha256: 35C5F95B68A2166EDF77B15C332B7A956A94FA101195D4E8892BC1FDF2D4740E
+  InstallerSha256: 6E2BAA2C9AADB61F3C32D4599942DC158A66F082276D45E0ADD0C1B1EA859CA6
 ManifestType: installer
 ManifestVersion: 1.12.0
