@@ -2,16 +2,16 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: SoftPerfect.RAMDisk
-PackageVersion: "26.7"
+PackageVersion: "26.10"
 InstallerType: inno
 Scope: machine
 UpgradeBehavior: install
 ProductCode: '{33A14ED9-0340-4193-BEDB-B95BC8196182}_is1'
-ReleaseDate: 2026-07-06
+ReleaseDate: 2026-10-04
 ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.softperfect.com/download/files/ramdisk_setup.exe
-  InstallerSha256: B63FE7FF44068F19DA820CE071E8F0CC0FAD4F00A8F23051614FC73A100E8028
+  InstallerSha256: 66E6EFF8F15CBFE8D92BB1FDBD170D30005D272ED633E9D24B373EFF5717B79D
 ManifestType: installer
 ManifestVersion: 1.12.0

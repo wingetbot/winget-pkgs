@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: SoftPerfect.RAMDisk
-PackageVersion: "26.7"
+PackageVersion: "26.10"
 PackageLocale: en-US
 Publisher: SoftPerfect Pty Ltd
 PublisherUrl: https://www.softperfect.com/
@@ -41,9 +41,11 @@ Tags:
 - ramdisk
 - temp
 ReleaseNotes: |-
-  - Improved: Memory freed by deleting files is now returned to the system within seconds.
-  - Improved: Lifetime usage statistics are saved less frequently, reducing background overhead.
-  - Fixed: NTFS compression on a dynamic disk could cause a failure to copy large files with a false "not enough space" error.
+  - Added: Support for platform-native image files as RAM disk backing store: VHDX (Windows), DMG (macOS) and RAW (Linux).
+  - Added: Custom mount options on Linux and macOS, including noatime, noexec, nodiratime, nobrowse and noowners.
+  - Improved: The main window size and column widths are now remembered between sessions.
+  - Fixed: Kernel panic or freeze on macOS when creating large RAM disks of tens of gigabytes.
+  - Fixed: Disks with hard disk emulation on Windows could stall when a drive letter was a mapped network drive.
 ReleaseNotesUrl: https://www.softperfect.com/products/changelog.php?product_id=6
 PurchaseUrl: https://www.softperfect.com/order/?product=ramdisk
 Documentations:
