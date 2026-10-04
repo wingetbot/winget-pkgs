@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/04
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Argente.DataShredder
 PackageVersion: 1.0.8.0
@@ -20,6 +20,6 @@ Installers:
   InstallerSha256: 1F8ED492F509F3C8ADF71997BBD14A06C5C1CAFC0101BABF2895DC3FAAACE42E
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/datashredderarm64
-  InstallerSha256: 99B6EC582720D7D8EC111206F08D2CB1DE0CC1728019AFF60424697D6E5247BB
+  InstallerSha256: FCDBE9DB76926636E82DE6165F10D02CC0B81CDABCE0A232EAECE598590321C5
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
