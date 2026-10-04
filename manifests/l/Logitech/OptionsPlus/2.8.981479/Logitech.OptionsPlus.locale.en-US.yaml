@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/03
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/04
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: Logitech.OptionsPlus
-PackageVersion: 2.7.961922
+PackageVersion: 2.8.981479
 PackageLocale: en-US
 Publisher: Logitech
 PublisherUrl: https://www.logitech.com/
@@ -47,4 +47,4 @@ ReleaseNotes: |-
   - Add a “Customize” button to the Camera Settings overview on the camera page for webcams.
   - Update the field of view selector on the crop tab for webcams.
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
