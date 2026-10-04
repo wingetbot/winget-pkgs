@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: LasseMarkusRautiainen.TextEditorPro
-PackageVersion: 37.2.2
+PackageVersion: 37.3.0
 Scope: machine
 FileExtensions:
 - abap
@@ -171,34 +171,34 @@ FileExtensions:
 - xslt
 - yml
 - zig
-ReleaseDate: 2026-09-27
+ReleaseDate: 2026-10-04
 Installers:
 - Architecture: x86
   InstallerType: inno
   InstallerUrl: https://www.texteditor.pro/downloads/TextEditorPro32.exe
-  InstallerSha256: F409A867E6B39E51AE47E77554668DA536AE1BAC77E11CD14B4782C3ED959D59
+  InstallerSha256: B781937144BFE5FF7F0E74A660FD9DF5022F5B4773759C683057E46A56A0E8DA
   ProductCode: '{FC8AD371-A765-4E22-B25F-D5914D7193F1}}_is1'
 - Architecture: x64
   InstallerType: inno
   InstallerUrl: https://www.texteditor.pro/downloads/TextEditorPro64.exe
-  InstallerSha256: 26EA8EFD28D978CF64C8AC6E3C08B325DD0BB6E1B1A212AC012EA419B76E32C2
+  InstallerSha256: ACF5553905A591990174BD7ABD5B9FAECD0DCE8390AE871183A4080976BFD293
   ProductCode: '{FC8AD371-A765-4E22-B25F-D5914D7193F1}}_is1'
 - Architecture: x86
   InstallerType: wix
   InstallerUrl: https://www.texteditor.pro/downloads/TextEditorPro32.msi
-  InstallerSha256: CA632B48D766B6D6A5060CB5E3ED5344B488C69D6762E275DE3DDFE638A1C403
+  InstallerSha256: 26F47F82A58603610612AE43D96BE3409080C0174917197F9595E3192C3D7770
   InstallerSwitches:
     InstallLocation: TEXTEDITORPRODIR="<INSTALLDIR>"
-  ProductCode: '{9C02AE39-AB2C-4A29-AAB0-BD1917EA6EF5}'
+  ProductCode: '{93444150-9F94-43EE-84D1-A9CC2BDC4DD9}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{FCD58DD3-3A13-408E-944F-D4A0826C866C}'
 - Architecture: x64
   InstallerType: wix
   InstallerUrl: https://www.texteditor.pro/downloads/TextEditorPro64.msi
-  InstallerSha256: 3FA61EC04FCCB28D691A9F2216631DEDDD5D036A10C1AED380668363513247BE
+  InstallerSha256: 462F2234D57BECDB98AD03D45CCD276AE0E91A8D57CDB31EAAB1FA0E13F9CA60
   InstallerSwitches:
     InstallLocation: TEXTEDITORPRODIR="<INSTALLDIR>"
-  ProductCode: '{DA6D268A-F6AE-4454-BE54-45474D1C404F}'
+  ProductCode: '{78426A2B-297B-4408-9813-F341704D96F8}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{FCD58DD3-3A13-408E-944F-D4A0826C866C}'
 ManifestType: installer
