@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: JumpingBytes.ClipboardMaster
-PackageVersion: 5.9.115
+PackageVersion: 5.9.116
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -23,7 +23,7 @@ ElevationRequirement: elevationRequired
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.jumpingbytes.com/down/ClipboardMasterInst.exe
-  InstallerSha256: 1316E1BFF23A8426AD253965E845271F80FBD8BB062EF853AF33802BC268978E
+  InstallerSha256: 41590D7D1D00AD37CC25B5CB95B76F822E2D4557211FF649F2BEB351A7236091
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-09-21
+ReleaseDate: 2026-10-04
