@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Objective.Trapeze
-PackageVersion: 26.9.44160.2
+PackageVersion: 26.10.3780.0
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
@@ -21,17 +21,17 @@ FileExtensions:
 - tif
 - tiff
 - tpz
-ReleaseDate: 2026-10-01
+ReleaseDate: 2026-10-05
 AppsAndFeaturesEntries:
 - UpgradeCode: '{52B39D54-4513-49E0-B8DD-557D8CA64FAF}'
 Installers:
 - Architecture: x86
   InstallerUrl: https://s3-ap-southeast-2.amazonaws.com/trapezedownload.objective.com/Objective_Trapeze_x86.msi
-  InstallerSha256: D5039A34BC9988E65F2EF177405DA167E1E22E2D6A2BA002D2049419AFF7093A
-  ProductCode: '{940F7C67-1AC8-49FA-9C5F-A6A7F5813BD7}'
+  InstallerSha256: AC1A7075A945F7FA69609F398287EEEB033B1A183DBD62986EDE1B34791DD7C2
+  ProductCode: '{03E79DF7-7852-485A-AA63-EA6659A8DA0B}'
 - Architecture: x64
   InstallerUrl: https://s3-ap-southeast-2.amazonaws.com/trapezedownload.objective.com/Objective_Trapeze_x64.msi
-  InstallerSha256: 57C734DF7FDD1A53815005DCDAD7E7B56EA5457221703513EA5C02E386D8BF2D
-  ProductCode: '{9DCB018D-818A-44D7-AB29-26F60BB90EB9}'
+  InstallerSha256: E6A96D231E214D6AE238FB0C29D07DE87572E4A1F9989476767CD3FE168D4FFE
+  ProductCode: '{77299865-A477-424E-A9EC-3ED570B3BB32}'
 ManifestType: installer
 ManifestVersion: 1.12.0
