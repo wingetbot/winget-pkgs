@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"0b8918f7-d498-43b9-abab-dca97be5c344","TestPlan":"Validation-Domain","PackagePath":"manifests/d/DuckDuckGo/DesktopBrowser/Preview/0.174.6.0","CommitId":"ac109f465269d088012a65865c61f65cfe4a7320"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
