@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.RegistryCleaner
-PackageVersion: 4.1.0.5
+PackageVersion: 4.1.0.6
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/registrycleanerx86
-  InstallerSha256: AD6F7CBE9D08D66E7A797FD4084AF7723367E14E84E9C6D78EEA9A52E671FD8F
+  InstallerSha256: EDF2031F4790FEC388C6FE0EC4EBE6501177B3415178EDD5020562684290D31B
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/registrycleanerx64
-  InstallerSha256: 1052A1DD61D8AAE589378EA4636D7946591564131545152D6CEB4BB797D14FF5
+  InstallerSha256: 56AA1E84B7AFDBA2689A97DC04986233EFB5350F8D5AB82CBAC9FD5D262BF98F
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/registrycleanerarm64
-  InstallerSha256: 4985B4BEFDEB7488178CC517921C6192C04BAA1955238B6856F4EE03715AFAB8
+  InstallerSha256: 354F998E3AA315BC64E2EE31086F5D2AB72CE42C258DCA7295D03D94B664B1C2
 ManifestType: installer
 ManifestVersion: 1.12.0
