@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: BrinkSoftware.IbisCalculerenVoorBouw
-PackageVersion: 4.2.73.0
+PackageVersion: 4.3.246.0
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -63,13 +63,14 @@ UpgradeBehavior: install
 FileExtensions:
 - xtb
 - xtbf
-ProductCode: '{C9DC942C-BF40-4EDB-A423-62C070D180AF}'
+ProductCode: '{FB9ADD41-3CBE-4CF2-BFA7-5FED6D3CEAC0}'
+ReleaseDate: 2026-10-05
 AppsAndFeaturesEntries:
 - UpgradeCode: '{4DE7B318-4A06-4205-8850-71CEADC68770}'
   InstallerType: msi
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.ibis.nl/hubfs/Downloads%20ibis.nl%20en%20ibis.be/Bouw/IbisCalculerenVoorBouw_Setup_x64.exe
-  InstallerSha256: C00468376BB21934E3677A72A0C5AAE571140D4FDBCE840AC178640CD52878AF
+  InstallerSha256: F211529B832E45264F65BF5ECE12820C2342D4A2245D04DE0FBC2AC85301736B
 ManifestType: installer
 ManifestVersion: 1.12.0
