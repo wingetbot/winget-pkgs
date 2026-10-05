@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.StartupManager
-PackageVersion: 4.0.9.4
+PackageVersion: 4.0.9.5
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/startupmanagerx86
-  InstallerSha256: 1A2B870A9012FE2C675970EBE4C7F613E3D8F4FECE4AB671EF48D8D34F67BA22
+  InstallerSha256: 8BD9CB50A719B8E6079B21FCFF8931974F595CDC2C49BD8FC07B9D824FC710CB
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/startupmanagerx64
-  InstallerSha256: C8976CA2AEAD628467494EFCB898FFCE011ED7DE5FF520D704FBD735FC2C4DD0
+  InstallerSha256: B7C6B8E474D4B3A3BFD9F740ABDD9B9FDEDBC59A63779C8BBF2D7D849A3BB478
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/startupmanagerarm64
-  InstallerSha256: FC411F733AF9B8071D9228080811EA269AE3B12609F6F6E3564114B9933DB700
+  InstallerSha256: C94F0FA2DE59196C0F38DA6025D9506CE0F47903270125DA3D22F2411D84D772
 ManifestType: installer
 ManifestVersion: 1.12.0
