@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.DataShredder
-PackageVersion: 1.0.8.0
+PackageVersion: 1.0.8.1
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/datashredderx86
-  InstallerSha256: 12FD19741CC90B4B3BDFA3C5107C9E5AE02A468396CC29947B1845ABC2C35248
+  InstallerSha256: 6FDB2FA6826230E1E9CB096A37DAF30C0C14FBE51D9654E7060C5DE9299F4D58
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/datashredderx64
-  InstallerSha256: 1F8ED492F509F3C8ADF71997BBD14A06C5C1CAFC0101BABF2895DC3FAAACE42E
+  InstallerSha256: 271BD3D40B266C6DAF9DA70EA7BDB747BDB191C6B452B98F591C6B7515DA168A
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/datashredderarm64
-  InstallerSha256: 99B6EC582720D7D8EC111206F08D2CB1DE0CC1728019AFF60424697D6E5247BB
+  InstallerSha256: F32C3260E57CAEB5A0B4240A440312D07375EA5833515555AAFAC6AF6E273D10
 ManifestType: installer
 ManifestVersion: 1.12.0
