@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.SoftwareUpdater
-PackageVersion: 1.0.9.6
+PackageVersion: 1.0.9.7
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/softwareupdaterx86
-  InstallerSha256: CDA26919F98997153A629A088DAC6352B80A2308D0AEDAF338E2E77DF6DDE64C
+  InstallerSha256: 4FDC62B5B3C2F39F0FB339F2504E9FE06B8C193853C199089F0177E4B562237C
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/softwareupdaterx64
-  InstallerSha256: A69E98E683342D8732477425D6EA64E57049A1F60B65F30150239DBC9F2E0225
+  InstallerSha256: A5DBF65B26DAC87D2D7C8E439D221FF6A77BA6A1EBE2336FBB8EE5C9AB2A4F61
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/softwareupdaterarm64
-  InstallerSha256: 990BF4D136A894BF8D94AB4570A3FDB90A1BAA0820658B25F2C7ADC5306B5D19
+  InstallerSha256: 642FCD0B3F5098470D9BD8F5C74AD6B5289730639603F82F1114EACD7A3AAF17
 ManifestType: installer
 ManifestVersion: 1.12.0
