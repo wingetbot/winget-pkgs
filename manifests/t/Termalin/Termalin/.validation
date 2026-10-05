@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"a516e5dd-24c8-4a49-bd4f-7d31f27aa6d4","TestPlan":"Validation-Domain","PackagePath":"manifests/t/Termalin/Termalin/0.1.44","CommitId":"63a3f82780e7f2b6c306f162b10c7364550876dd"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
