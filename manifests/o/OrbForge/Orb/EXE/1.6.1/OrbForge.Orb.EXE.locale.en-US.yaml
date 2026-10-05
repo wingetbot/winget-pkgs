@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: OrbForge.Orb.EXE
-PackageVersion: 1.6.0
+PackageVersion: 1.6.1
 PackageLocale: en-US
 Publisher: Orb Forge Inc.
 PublisherUrl: https://orb.net/
@@ -50,12 +50,11 @@ Tags:
 - monitor
 - network
 ReleaseNotes: |-
-  - New: new view added to app that displays metrics and scores graphically.
-  - New: new view includes filters for events that occurred during that timeframe; filters can be used to highlight network activity in the new graphs.
-  - New: peak speed test design.
-  - New: added the ability to scan nearby access points.
-  - Update: updated endpoint selection menu.
-  - Sensor changes outlined in 1.6.0 release notes
+  - New: added Orb Sensor MSI for MDM deployment (SCCM/Intune)
+  - Bug: increased Linux wifi scan timeout
+  - Bug: fixed cellular and bluetooth connection type mapping on windows
+  - Bug: fixed D_WIN32_WINNT reference for older toolchains
+  - Other bug fixes and optimizations
 ReleaseNotesUrl: https://orb.net/the-forge/changelog#windows
 Documentations:
 - DocumentLabel: Docs
