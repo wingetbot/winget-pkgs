@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Oct/03
+# Automatically updated by the winget bot at 2026/Oct/05
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: wez.wezterm.nightly
-PackageVersion: 20260929-043349-cab25161
+PackageVersion: 20261005-054844-37254829
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -24,6 +24,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-setup.exe
-  InstallerSha256: 1E52712F6111C3583E37EABEEEF6C8D2896FE67EC8CE1EF38585E65CA01A923C
+  InstallerSha256: DDFF7F5EA8B929A74C726BA9F02DE728F68F3F4A848FE0AB999397B9D4680502
 ManifestType: installer
 ManifestVersion: 1.28.0
