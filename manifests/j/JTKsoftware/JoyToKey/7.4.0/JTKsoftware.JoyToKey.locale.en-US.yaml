@@ -1,7 +1,8 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/06
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: JTKsoftware.JoyToKey
-PackageVersion: 7.3.3
+PackageVersion: 7.4.0
 PackageLocale: en-US
 Publisher: JTK software
 PackageName: JoyToKey
@@ -20,4 +21,4 @@ Tags:
 - keymapping
 PurchaseUrl: https://joytokey.net/en/purchase
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
