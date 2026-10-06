@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/06
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: 3CX.Softphone
-PackageVersion: 20.0.1190.0
+PackageVersion: 20.0.1277.0
 Platform:
 - Windows.Desktop
 MinimumOSVersion: 10.0.17763.0
@@ -17,7 +17,7 @@ ReleaseDate: 2026-07-27
 Installers:
 - Architecture: x64
   InstallerUrl: https://downloads-global.3cx.com/downloads/3cxsoftphone/3CX.msix
-  InstallerSha256: DD9314B052EBDE2FB8414F549986BA9FE888A72D3ACAFC1FA89374B28D6AC826
-  SignatureSha256: 8D3AFA477320F28869EB724C28F09EFC39C9697CDF5444FBC97999F3DC2E3E54
+  InstallerSha256: 02F02772F9F32D83611FD5629FCCB6112D4BBB7337A7CC8D00005C271726E47D
+  SignatureSha256: 77BD5FC44098D3850760CEF2C941C8822ECD6E1C97942EA6CBE7F00D02B45383
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
