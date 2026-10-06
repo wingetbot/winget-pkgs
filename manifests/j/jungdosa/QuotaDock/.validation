@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"3881ef64-76de-41b9-a995-b3966fa7d548","TestPlan":"Policy-Test-1.2","PackagePath":"manifests/j/jungdosa/QuotaDock/0.7.54","CommitId":"afd983b9ebf600a94830889cbccda05dc87e8035"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
