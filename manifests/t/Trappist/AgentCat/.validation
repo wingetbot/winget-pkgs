@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"0d701d25-2c73-4b19-b19a-2d9f0e31223c","TestPlan":"Policy-Test-1.2","PackagePath":"manifests/t/Trappist/AgentCat/26.40.0","CommitId":"6abfacae6d1f3bb64410cec0a9d938df0d442536"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
