@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"ca6aea2d-a7fc-4c29-91b0-7fa18c86a27a","TestPlan":"Policy-Test-1.2","PackagePath":"manifests/m/Myriad-Dreamin/TinymistViewer/0.15.8","CommitId":"b671a32110ce7188b6dc43e4d9d223a395ad5cb1"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
