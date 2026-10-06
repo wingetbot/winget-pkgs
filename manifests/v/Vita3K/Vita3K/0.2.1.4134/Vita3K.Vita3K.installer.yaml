@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Vita3K.Vita3K
-PackageVersion: 0.2.1.4124
+PackageVersion: 0.2.1.4134
 InstallerType: zip
 NestedInstallerType: portable
 NestedInstallerFiles:
@@ -18,11 +18,11 @@ FileExtensions:
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.VCRedist.2015+.x64
-ReleaseDate: 2026-10-05
+ReleaseDate: 2026-10-06
 ArchiveBinariesDependOnPath: true
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip
-  InstallerSha256: 0F33BC070D9AC18DAAE6C943FFBCFC07D78B54F2B371AB77AC1C6B893DF60B8E
+  InstallerSha256: B84A379E4FBB898F40C906DD5901B08EA9A8377E7FBF99FEBDC06B0A4F2CA38D
 ManifestType: installer
 ManifestVersion: 1.12.0
