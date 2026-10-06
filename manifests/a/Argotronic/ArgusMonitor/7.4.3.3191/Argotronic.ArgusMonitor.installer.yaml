@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/25
+# Automatically updated by the winget bot at 2026/Oct/06
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Argotronic.ArgusMonitor
-PackageVersion: 7.4.3.3190
+PackageVersion: 7.4.3.3191
 InstallerLocale: en-US
 MinimumOSVersion: 10.0.0.0
 InstallerType: nullsoft
@@ -12,6 +12,6 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe
-  InstallerSha256: 873F934A0E5078D67AA099497E956C7A4104AF8924A98840745C72711C5481AB
+  InstallerSha256: 0D36EA13768866FCE4DAB07B749015041CC6F4723AFFFAB36719E1E7187D6FCA
 ManifestType: installer
 ManifestVersion: 1.28.0
