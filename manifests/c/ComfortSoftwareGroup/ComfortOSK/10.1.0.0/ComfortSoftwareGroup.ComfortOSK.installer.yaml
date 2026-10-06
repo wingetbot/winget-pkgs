@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Oct/02
+# Automatically updated by the winget bot at 2026/Oct/06
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: ComfortSoftwareGroup.ComfortOSK
-PackageVersion: 10.0.1.0
+PackageVersion: 10.1.0.0
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -21,6 +21,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.comfortsoftware.com/download/ComfortOSKSetup.exe
-  InstallerSha256: DF129AFE668C6EE4253EED1D4B5C7FA3BBDC5FEFA847D3AA3B8ACFE45503BFAF
+  InstallerSha256: 5C178D3842FF8F415EA9ACE9209BB2BD835831BD8F3CECF460402948A4EFB100
 ManifestType: installer
 ManifestVersion: 1.28.0
