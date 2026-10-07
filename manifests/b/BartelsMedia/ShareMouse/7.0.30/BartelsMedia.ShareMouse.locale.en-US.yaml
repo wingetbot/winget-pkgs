@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: BartelsMedia.ShareMouse
-PackageVersion: 7.0.27
+PackageVersion: 7.0.30
 PackageLocale: en-US
 Publisher: Bartels Media GmbH
 PublisherUrl: https://www.bartelsmedia.com/
@@ -36,9 +36,11 @@ Tags:
 - remote
 - share
 ReleaseNotes: |-
-  - Crash with unicode clipboard data.
-  - Lockout after Quick Jump on the same computer.
-  - Rare crash with enabled screen dimming.
+  - Monitor layout sync and refresh
+  - Shutdown crash that could happen soon after starting the computer.
+  - Long file paths issues and UDP processing
+  - Layout change issue while combining screens
+  - Stuck modifier key states
 ReleaseNotesUrl: https://www.sharemouse.com/download/changelog/
 Documentations:
 - DocumentLabel: Documentation
