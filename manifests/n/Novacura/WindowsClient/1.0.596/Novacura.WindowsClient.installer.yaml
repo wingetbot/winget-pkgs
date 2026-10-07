@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Sep/16
+# Automatically updated by the winget bot at 2026/Oct/07
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Novacura.WindowsClient
-PackageVersion: 1.0.589
+PackageVersion: 1.0.596
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -21,6 +21,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x64
   InstallerUrl: https://public.novacura.com/public-storage/client-cloud-installers/Flow%20Connect%20-%20Windows%20Client.exe
-  InstallerSha256: 2CACE715165A0D6BA0554987D8993BB75095D8BA05452D180942673419711697
+  InstallerSha256: 63C02EC3C9A13F3171C1774EA0909A0CEC2FEE81CD6C442CBA8E7560897C916A
 ManifestType: installer
 ManifestVersion: 1.28.0
