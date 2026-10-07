@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/07
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: NordSecurity.NordPass
-PackageVersion: 7.9.5
+PackageVersion: 7.11.8.84963
 Platform:
 - Windows.Desktop
 Protocols:
@@ -12,15 +12,15 @@ Installers:
 - Architecture: x64
   InstallerType: msi
   InstallerUrl: https://downloads.npass.app/windows/NordPassSetup.exe
-  InstallerSha256: E471246CFD91C8AE7EA4E46AD8F54B708993C46B296FA6CA63DD76046D39F6AF
+  InstallerSha256: C424FEE1BB991E76C7A0E3CBA70B40EF7C0BB71D2432D6706E38BC73FC10F992
 - Architecture: x64
   InstallerType: nullsoft
   Scope: user
   InstallerUrl: https://downloads.npass.app/windows/NordPassSetup.exe
-  InstallerSha256: E471246CFD91C8AE7EA4E46AD8F54B708993C46B296FA6CA63DD76046D39F6AF
+  InstallerSha256: C424FEE1BB991E76C7A0E3CBA70B40EF7C0BB71D2432D6706E38BC73FC10F992
   InstallerSwitches:
     Upgrade: --updated
   UpgradeBehavior: install
   ProductCode: f7c32559-6c31-590a-9972-0bea54b04213
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
