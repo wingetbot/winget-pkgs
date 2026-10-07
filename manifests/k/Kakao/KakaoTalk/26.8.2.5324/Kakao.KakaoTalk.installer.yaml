@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Kakao.KakaoTalk
-PackageVersion: 26.8.1.5315
+PackageVersion: 26.8.2.5324
 InstallerLocale: en-US
 InstallerType: nullsoft
 Scope: machine
@@ -16,12 +16,12 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x86
   InstallerUrl: https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe
-  InstallerSha256: EA1482C1E157385F3EE0444C8C92283103C1B29C17A102632FE0E0DDA92FB2EB
+  InstallerSha256: F3B21B92DBE17F13E8606A91DF2E2E32EF4FFD4054B007242E6BE32E45BF7E2C
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles(x86)%\Kakao\KakaoTalk\KakaoTalk'
 - Architecture: x64
   InstallerUrl: https://app-pc.kakaocdn.net/talk/win32/x64/KakaoTalk_Setup.exe
-  InstallerSha256: 09FCC9D2B7F63D1BAB597109ACDE63415E2DB63559873C9E83B46A424AD391EA
+  InstallerSha256: 4B904622D873B630BA78C291748BFDCB4C51B0CC7A37D3393632FCFF042FA723
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\Kakao\KakaoTalk\KakaoTalk'
 ManifestType: installer
