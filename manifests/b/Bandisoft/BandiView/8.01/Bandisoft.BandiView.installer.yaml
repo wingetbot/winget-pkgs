@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Bandisoft.BandiView
-PackageVersion: "8.0"
+PackageVersion: "8.01"
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -83,13 +83,13 @@ FileExtensions:
 - webp
 - x3f
 ProductCode: BandiView
-ReleaseDate: 2026-09-15
+ReleaseDate: 2026-10-07
 Installers:
 - Architecture: x64
   InstallerUrl: https://bandisoft.app/bandiview/BANDIVIEW-SETUP-X64.EXE
-  InstallerSha256: 63D7738FDF58369507D56FE06AEEA0F98D1950891BAE192252630D52D2F7F010
+  InstallerSha256: 584408A5E3C32BB39C59438B3FC1961DEF50EAF058C57027FE79836CA1C548D6
 - Architecture: arm64
   InstallerUrl: https://bandisoft.app/bandiview/BANDIVIEW-SETUP-ALL.EXE
-  InstallerSha256: 73D9317CB81C6F7CE38E9137D2EDE4B5EC0D098C070C2BAD52AC7C62C0896CEA
+  InstallerSha256: F61E2BF410D3093692B6986CBF1CB81A281DFC76A59639D9E223F717D7F6EE55
 ManifestType: installer
 ManifestVersion: 1.12.0

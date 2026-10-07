@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Bandisoft.BandiView
-PackageVersion: "8.0"
+PackageVersion: "8.01"
 PackageLocale: en-US
 Publisher: Bandisoft.com
 PublisherUrl: https://www.bandisoft.com/
@@ -25,23 +25,20 @@ Tags:
 - viewer
 - webtoon
 ReleaseNotes: |-
-  - Added a dark themed UI
-  - Added a feature to show the EXIF metadata in PSD files
-  - Added a feature to show the compressed metadata in JXL files
-  - Added support for Ultra HDR HEIC format
-  - Improved program UI/UX design
-  - Improved the background color personalization
-  - Updated the third-party libraries to their latest versions
-  - Added a Bookmark Manager
-  - Added a feature to save the image currently visible in the viewer as it is (Ctrl+Alt+S)
-  - Improved the support for SVG format
-  - Improved the loading speed for animated GIF, WebP, and AVIF formats
-  - Fixed an issue that SDR colors are displayed incorrectly for some HEIF images
+  - Added support for Adobe HDR JPEG files
+  - Added an option to apply adaptive HDR tone mapping
+  - Improved HDR image display to reflect Windows 11 HDR calibration settings
+  - Improved the loading speed for DNG files
+  - Improved the loading speed for images in archives
+  - Improved the display of EXIF and XMP metadata
+  - Fixed a bug that the program cannot display some Ultra HDR HEIC files
+  - Fixed a bug that white areas appear along the right and bottom edges of some DNG images
+  - Fixed a bug that the keyboard cannot scroll to the bottom in Webtoon view mode
+  - Fixed a bug that files with long paths cannot be deleted
+  - Fixed a bug that opening a file on a NAS may open a different file
+  - Fixed a vulnerability that occurs when uninstalling the program (KVE-2026-2462)
+  - Fixed a vulnerability that occurs with XMP metadata (KVE-2026-2465)
   - Improved program stability
-  - Fixed a vulnerability that occurs with RAW files (KVE-2026-1707, CVE-2026-21413)
-  - Fixed a vulnerability that occurs with HEIF files (KVE-2026-1708, KVE-2026-1706)
-  - Fixed a vulnerability that occurs with JXR files (KVE-2026-1713)
-  - Improved the support for RAW formats
   - Other modifications
 ReleaseNotesUrl: https://www.bandisoft.com/bandiview/history/
 PurchaseUrl: https://www.bandisoft.com/bandiview/buy/
