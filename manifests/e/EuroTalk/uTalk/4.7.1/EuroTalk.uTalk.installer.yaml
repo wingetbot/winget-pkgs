@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/07
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: EuroTalk.uTalk
-PackageVersion: 4.6.0
+PackageVersion: 4.7.1
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
@@ -14,11 +14,11 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x86
   InstallerUrl: https://utalk.com/download?os_version=windows32
-  InstallerSha256: 263E9B759B3640666FF7907EDFD181B3D1A428C72AC21C8C47132B7A7D369C1C
-  ProductCode: '{3DF997B1-8BBC-43AC-9A7A-2D0C873DF403}'
+  InstallerSha256: C0678F30F032F6BA053D3C2443F0C90E10AFC00F944E542C7C5C2627BE6D5E29
+  ProductCode: '{FB5A0188-AD39-41A0-B668-8A4ED1E723B1}'
 - Architecture: x64
   InstallerUrl: https://utalk.com/download?os_version=windows64
-  InstallerSha256: 42D9D3315250A99610322D0F625B40145077F210AA60B5407D4ACFA3F53A3251
-  ProductCode: '{41ACEC6F-8137-42A9-B02E-AA1F46D79F10}'
+  InstallerSha256: BE0A5634F667EFBAA62620FF953305A7E40463653728007E27C3968666DADD57
+  ProductCode: '{00FC64E8-A246-4CE5-B091-E956887B4724}'
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
