@@ -1,18 +1,18 @@
-# Automatically updated by the winget bot at 2026/Sep/28
+# Automatically updated by the winget bot at 2026/Oct/07
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: SiberSystems.GoodSync
-PackageVersion: 12.11.8.8
+PackageVersion: 12.11.9.9
 MinimumOSVersion: 10.0.0.0
 Installers:
 - Architecture: x86
   InstallerType: msi
   InstallerUrl: https://www.goodsync.com/download/GoodSync-vsub-Setup.msi
-  InstallerSha256: BF88C61B7F6F5091787FD29326D3F89FC29A58463BD258BA7E9D9B5E19B925A1
+  InstallerSha256: 4F286470920F66D037DC54C38C228009640D69EBDD5C80F405D218DB6DB629ED
 - Architecture: x86
   InstallerType: nullsoft
   Scope: machine
   InstallerUrl: https://www.goodsync.com/download/GoodSync-vsub-Setup.exe
-  InstallerSha256: 6D6B1C6F08768159378FAE382C6326AC92089533664CBD3A6D8C15151E56FB5A
+  InstallerSha256: 8DD6A201894F89F55EE6CF16B127B5F852FEC2B967483B29B33265CBFA1CF6D4
 ManifestType: installer
 ManifestVersion: 1.28.0
