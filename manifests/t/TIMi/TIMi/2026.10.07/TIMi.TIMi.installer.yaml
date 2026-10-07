@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: TIMi.TIMi
-PackageVersion: 2026.10.03
+PackageVersion: 2026.10.07
 InstallerType: nullsoft
 Scope: machine
 FileExtensions:
@@ -16,10 +16,10 @@ FileExtensions:
 - timiwizard
 - typexml
 ProductCode: TIMi
-ReleaseDate: 2026-10-03
+ReleaseDate: 2026-10-07
 Installers:
 - Architecture: x64
   InstallerUrl: https://timi.global.ssl.fastly.net/TIMi_Full/TIMiSetup_Full.exe
-  InstallerSha256: FD6E590477597B845B2D5A13422C43CAC00E893D37BEEC4239DA43E270484A69
+  InstallerSha256: 1B8E411F87963EFE63CE6197B993031F811BB8707A4B4DEAA24C3F3ADD0DDF99
 ManifestType: installer
 ManifestVersion: 1.12.0
