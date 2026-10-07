@@ -1,0 +1,1 @@
+{"ValidationVersion":"1.0.0","Waivers":[{"WaiverId":"ccef337b-22e0-4452-b0b8-8517081fb389","TestPlan":"Policy-Test-1.2","PackagePath":"manifests/s/Steerania/Oryx/1.0.0","CommitId":"7b5a5ac818067a22f35b0a72cc416992e6ddaec1"}],"InstallationVerification":{"Executables":[],"TimeoutInMinutes":0}}
