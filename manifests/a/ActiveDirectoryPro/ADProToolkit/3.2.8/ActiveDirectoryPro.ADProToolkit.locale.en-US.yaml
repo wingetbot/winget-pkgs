@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: ActiveDirectoryPro.ADProToolkit
-PackageVersion: 3.2.7
+PackageVersion: 3.2.8
 PackageLocale: en-US
 Publisher: ActiveDirectoryPro
 PublisherUrl: https://activedirectorypro.com/
@@ -19,11 +19,6 @@ Description: Active Directory Pro Toolkit is an easy to use Active Directory Too
 Tags:
 - active-directory
 - ad
-ReleaseNotes: |-
-  New Features
-  - User Management and Computer Management: added checkboxes to the results grid so several objects can be selected at once, with Disable, Enable and Delete for the selection. Works for users, groups and computers. Objects protected from accidental deletion are reported together and asked about once, and anything that fails is listed by name.
-  Bug Fixes
-  - Computer Management: deleting a computer no longer clears the whole results grid. The search is re-run instead, so the remaining results stay on screen.
 ReleaseNotesUrl: https://docs.activedirectorypro.com/getting-started/release-notes/
 PurchaseUrl: https://activedirectorypro.com/pricing/
 Documentations:
