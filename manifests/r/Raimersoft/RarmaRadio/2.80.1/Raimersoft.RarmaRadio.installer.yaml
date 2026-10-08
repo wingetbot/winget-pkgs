@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Oct/02
+# Automatically updated by the winget bot at 2026/Oct/08
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Raimersoft.RarmaRadio
-PackageVersion: 2.78.0
+PackageVersion: 2.80.1
 InstallerLocale: en-US
 InstallerType: inno
 Scope: machine
@@ -21,6 +21,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.raimersoft.com/downloads/rarmaradio_setup.exe
-  InstallerSha256: BD5F582E60485130BF418DE0AF6DF62EE7FC73C4C1DD59565054A1CE70799FC9
+  InstallerSha256: 193A81C75F7929812C61C80FFD4490081445E90666F8D6DD2ABC8FA4B543CDF2
 ManifestType: installer
 ManifestVersion: 1.28.0
