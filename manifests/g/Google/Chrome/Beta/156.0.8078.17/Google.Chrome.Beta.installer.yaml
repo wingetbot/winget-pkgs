@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/08
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Google.Chrome.Beta
-PackageVersion: 156.0.8078.4
+PackageVersion: 156.0.8078.17
 InstallerType: wix
 Scope: machine
 UpgradeBehavior: install
@@ -29,15 +29,15 @@ ElevationRequirement: elevationRequired
 Installers:
 - Architecture: x86
   InstallerUrl: https://dl.google.com/dl/chrome/install/beta/googlechromebetastandaloneenterprise.msi
-  InstallerSha256: 0340942E0E48441A6C2A665BB6EAC97E30B23F897517E2C79996EA07A61232C8
-  ProductCode: '{E2A40E28-7382-31AC-8FB2-A0AD23F0EDAD}'
+  InstallerSha256: BA702E828D413AC0D7A7EE827F512F5190DEB06F210EEBF9E22BEC989CE64FE8
+  ProductCode: '{BE047F4C-827B-399E-89A6-E244D5E12BE6}'
 - Architecture: x64
   InstallerUrl: https://dl.google.com/dl/chrome/install/beta/googlechromebetastandaloneenterprise64.msi
-  InstallerSha256: 17B7AD7B0F7AF091FEB9D9A5F1A37F92B3DB829001B480CA0B654BFA6BABF11C
-  ProductCode: '{43682B6F-1688-326F-900F-8F1F4382FA84}'
+  InstallerSha256: A9C22A279EDD2C11253B7790A1592B2F28303D1C13837491BDF00E29BFC3A30E
+  ProductCode: '{84F8ACD9-376C-3F7A-A97D-0C2B4C3A74C1}'
 - Architecture: arm64
   InstallerUrl: https://dl.google.com/dl/chrome/install/beta/googlechromebetastandaloneenterprise_arm64.msi
-  InstallerSha256: E687E1DEB2D8150F4C8864C636C4D89A2E15F0E9E7286D35042BE7DF19798C6F
-  ProductCode: '{43D357C6-453E-3CDF-98D8-5E88D1CD2E57}'
+  InstallerSha256: 5A71E05900DEACFAAE8C640B770472796796DD48DD3C74B2C199AD98D450FDC0
+  ProductCode: '{FE072647-696C-3E51-AC67-CA1F5FC28CB0}'
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
