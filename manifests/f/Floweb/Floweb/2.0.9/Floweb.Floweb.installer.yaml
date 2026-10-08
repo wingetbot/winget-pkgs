@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/08
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Floweb.Floweb
 PackageVersion: 2.0.9
@@ -11,6 +11,6 @@ ReleaseDate: 2026-10-07
 Installers:
 - Architecture: x64
   InstallerUrl: https://download.once.work/Floweb_latest_x64-setup.exe
-  InstallerSha256: 2A04E461031BC8841EA3B128C785606D6BDAF73DADDE2C643D1472A3D889DDF4
+  InstallerSha256: 5A5EC717A18B758EAF06C6B620D7D826F1E7330E5EB3B98848EE7616A2EB392A
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
