@@ -1,8 +1,8 @@
-# Automatically updated by the winget bot at 2026/Oct/03
+# Automatically updated by the winget bot at 2026/Oct/08
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: RonsPlace.DataEdit.Lite
-PackageVersion: 2026.10.2.852
+PackageVersion: 2026.10.7.1017
 InstallerLocale: en-US
 InstallerType: inno
 InstallModes:
@@ -19,13 +19,13 @@ Installers:
 - Architecture: x86
   Scope: user
   InstallerUrl: https://www.ronsplace.ca/contentproduct/data-edit/setup.exe
-  InstallerSha256: 800CCEDD1509CF75F4FEFC68CC0F98641EF2B551401922AD117A3DE84CE13339
+  InstallerSha256: 192E7E5C0A1D3E17C24ACB3A8898B5E6534023C14A892A429AA9FBEF9BA881AB
   InstallerSwitches:
     Custom: /CURRENTUSER
 - Architecture: x86
   Scope: machine
   InstallerUrl: https://www.ronsplace.ca/contentproduct/data-edit/setup.exe
-  InstallerSha256: 800CCEDD1509CF75F4FEFC68CC0F98641EF2B551401922AD117A3DE84CE13339
+  InstallerSha256: 192E7E5C0A1D3E17C24ACB3A8898B5E6534023C14A892A429AA9FBEF9BA881AB
   InstallerSwitches:
     Custom: /ALLUSERS
   InstallationMetadata:
