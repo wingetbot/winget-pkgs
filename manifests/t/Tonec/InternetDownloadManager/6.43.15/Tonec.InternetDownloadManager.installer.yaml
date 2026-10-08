@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Tonec.InternetDownloadManager
-PackageVersion: 6.43.14
+PackageVersion: 6.43.15
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -13,10 +13,10 @@ InstallerSwitches:
   SilentWithProgress: /skipdlgs
 UpgradeBehavior: install
 ProductCode: Internet Download Manager
-ReleaseDate: 2026-10-07
+ReleaseDate: 2026-10-08
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download.internetdownloadmanager.com/idman643build14.exe
-  InstallerSha256: 5FBB5126EF5E7625D233F5C1C3BD664B6310C028FDFD1F0BC7EE81D15FC5983B
+  InstallerUrl: https://download.internetdownloadmanager.com/idman643build15.exe
+  InstallerSha256: A902E77169A3E4D8A88EE2CCAAB11D3D43AB209483625A3602438ED4A22BBFD9
 ManifestType: installer
 ManifestVersion: 1.12.0
