@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/08
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: Amazon.Quick
-PackageVersion: 1.1.3753
+PackageVersion: 1.1.3875
 InstallerType: nullsoft
 Scope: user
 InstallerSwitches:
@@ -15,6 +15,6 @@ ReleaseDate: 2026-10-03
 Installers:
 - Architecture: x64
   InstallerUrl: https://desktop.downloads.quick.aws.com/windows/x64/Amazon-Quick.exe
-  InstallerSha256: 6E2BAA2C9AADB61F3C32D4599942DC158A66F082276D45E0ADD0C1B1EA859CA6
+  InstallerSha256: F29827F0284C82B72BF13D075B7A234C992A0F3C877E745F53680A5B12EEB62C
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
