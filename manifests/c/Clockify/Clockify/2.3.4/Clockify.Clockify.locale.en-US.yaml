@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Clockify.Clockify
-PackageVersion: 2.3.3
+PackageVersion: 2.3.4
 PackageLocale: en-US
 Publisher: COING Inc.
 PublisherUrl: https://clockify.me/
@@ -23,11 +23,9 @@ Tags:
 - tracker
 - work
 ReleaseNotes: |-
-  What's new
-  - Added the ability to switch between global, regional and subdomain workspaces.
   What's fixed
-  - Fixed an issue where random time entries were occasionally counted twice toward the weekly total.
-  Other improvements and bug fixes.
+  - Fixed error 2738 during app installation.
+  - Fixed an issue where Windows was forced to restart after an app update.
 ReleaseNotesUrl: https://clockify.me/help/whats-new
 Documentations:
 - DocumentLabel: Tutorials
