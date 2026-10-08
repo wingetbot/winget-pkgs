@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Bandisoft.BandiView
-PackageVersion: "8.01"
+PackageVersion: "8.02"
 PackageLocale: en-US
 Publisher: Bandisoft.com
 PublisherUrl: https://www.bandisoft.com/
@@ -28,16 +28,13 @@ ReleaseNotes: |-
   - Added support for Adobe HDR JPEG files
   - Added an option to apply adaptive HDR tone mapping
   - Improved HDR image display to reflect Windows 11 HDR calibration settings
-  - Improved the loading speed for DNG files
-  - Improved the loading speed for images in archives
-  - Improved the display of EXIF and XMP metadata
-  - Fixed a bug that the program cannot display some Ultra HDR HEIC files
-  - Fixed a bug that white areas appear along the right and bottom edges of some DNG images
-  - Fixed a bug that the keyboard cannot scroll to the bottom in Webtoon view mode
-  - Fixed a bug that files with long paths cannot be deleted
-  - Fixed a bug that opening a file on a NAS may open a different file
-  - Fixed a vulnerability that occurs when uninstalling the program (KVE-2026-2462)
-  - Fixed a vulnerability that occurs with XMP metadata (KVE-2026-2465)
+  - Improved the loading speed for DNG files and images in archives
+  - Improved the display of image metadata
+  - Fixed a bug that prevented some HEIC and DNG images from being displayed correctly
+  - Fixed a bug that prevented scrolling to the bottom with the keyboard in Webtoon view mode
+  - Fixed a bug that prevented deleting files with long paths
+  - Fixed a bug that could cause a different file to open on a NAS
+  - Fixed security vulnerabilities (KVE-2026-2462, KVE-2026-2465)
   - Improved program stability
   - Other modifications
 ReleaseNotesUrl: https://www.bandisoft.com/bandiview/history/
