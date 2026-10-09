@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.SystemManager
-PackageVersion: 1.0.5.1
+PackageVersion: 1.0.5.2
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/systemmanagerx86
-  InstallerSha256: CA1F3885891E2180B15F0BC18B1C5C0F2515784FB12741CFD8C0950D60979004
+  InstallerSha256: 3D1B5B18C7993344BA763ED1F93A7FE135C69D5061A60F6D0AEFE3F480A590AB
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/systemmanagerx64
-  InstallerSha256: 3152D73268C48CD82A34F1B9CD263CB981C7FD0630BDA40392565F74951564A1
+  InstallerSha256: C36C052AF4D3597BF496077AF815A8530D60554B892B123195DE8D6A911378FA
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/systemmanagerarm64
-  InstallerSha256: 03D8F16F182501893EDA950E28AAD9473654B2F641B460351D8CB5C93BD78211
+  InstallerSha256: B0B2FE785A5F59091A9BD39125EBB196F01209B22B111C20ED2D45E6D2EF9406
 ManifestType: installer
 ManifestVersion: 1.12.0
