@@ -2,12 +2,12 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Bosyun.BoardMix.CN
-PackageVersion: 1.8.4+3
+PackageVersion: 1.8.4
 InstallerType: inno
 Scope: machine
 UpgradeBehavior: install
 ProductCode: '{b9464f48-5337-57a6-aa1d-adc298f5233d}_is1'
-ReleaseDate: 2026-10-08
+ReleaseDate: 2026-10-09
 AppsAndFeaturesEntries:
 - InstallerType: nullsoft
 Installers:
