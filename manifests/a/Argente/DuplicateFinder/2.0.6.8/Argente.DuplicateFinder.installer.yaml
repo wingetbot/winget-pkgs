@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.DuplicateFinder
-PackageVersion: 2.0.6.7
+PackageVersion: 2.0.6.8
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/duplicatefinderx86
-  InstallerSha256: 386C546AC8EFEFC78D018B238FFA50C2A532B762C027810D1B64D39F90B9D1D2
+  InstallerSha256: 9C1471D2F7815B577292C8EF60887395286BD212B9F1806F718350ABD7D433D6
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/duplicatefinderx64
-  InstallerSha256: 2C03DA1FE4856D6EADABFA145FF47100CBBDE48D331DD1748EF4239FA1D049CC
+  InstallerSha256: AF5FA80B8E5F988F3DC040CF6C0B1063872EAE0E16A44E35CDC19BDE3100D369
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/duplicatefinderarm64
-  InstallerSha256: 012A25DC541E0D06888FD68D432F911E292BFD0F242D527E6CC0A6D8B81BF9B8
+  InstallerSha256: 211BDFA7221A388A1E286541D0B9A29EEC4B8410B3DD8B1511B03F383E4431E1
 ManifestType: installer
 ManifestVersion: 1.12.0
