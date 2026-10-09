@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Perplexity.Comet
-PackageVersion: 153.0.8010.224
+PackageVersion: 154.0.8037.181
 PackageLocale: en-US
 Publisher: The Comet Authors
 Author: Perplexity AI, Inc.

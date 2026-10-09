@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Perplexity.Comet
-PackageVersion: 153.0.8010.224
+PackageVersion: 154.0.8037.181
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -30,10 +30,10 @@ FileExtensions:
 - xht
 - xhtml
 ProductCode: Perplexity Comet
-ReleaseDate: 2026-09-28
+ReleaseDate: 2026-10-08
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.perplexity.ai/rest/browser/download?platform=win_x64&channel=stable
-  InstallerSha256: 583A2233B749BF668E87848414EE7593F3A33412816D09C73A3EB2ADE0D6BF25
+  InstallerSha256: 7480F952CC4FAF92A6C3A42509BC50A67D194FD397F2806A3C55A1393F9FBDE1
 ManifestType: installer
 ManifestVersion: 1.12.0
