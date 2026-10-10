@@ -2,19 +2,19 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: CrossPlusA.Balabolka
-PackageVersion: 2.15.0.920
+PackageVersion: 2.15.0.921
 InstallerType: zip
 FileExtensions:
 - bxt
 - bxz
-ReleaseDate: 2026-09-19
+ReleaseDate: 2026-10-10
 Installers:
 - Architecture: x86
   NestedInstallerType: exe
   NestedInstallerFiles:
   - RelativeFilePath: setup.exe
   InstallerUrl: https://www.cross-plus-a.com/balabolka.zip
-  InstallerSha256: 865DAAB1AEB99E5080CA8D09687DAD5634C03252DC3758EAF9ABE996D95C7E0E
+  InstallerSha256: FAF3202AC969996B893B7602EE66352085A3B7F573C7A395004C97A543709477
   InstallModes:
   - interactive
   - silent
@@ -29,7 +29,7 @@ Installers:
   NestedInstallerFiles:
   - RelativeFilePath: Balabolka\balabolka.exe
   InstallerUrl: https://www.cross-plus-a.com/balabolka_portable.zip
-  InstallerSha256: F28EAC9B3F7E89661840AB842F1FC49CC3FCF8EDFFE72C2F16C2FBAD749C32BE
+  InstallerSha256: D276730F8861385E6B3E726B9613CE65E85DF9ADD281942B641FD96BBEB8E7A7
   UpgradeBehavior: uninstallPrevious
   ArchiveBinariesDependOnPath: true
 ManifestType: installer
