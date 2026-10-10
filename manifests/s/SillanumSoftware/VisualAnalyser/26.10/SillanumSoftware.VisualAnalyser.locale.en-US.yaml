@@ -1,8 +1,8 @@
-# Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/10
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: SillanumSoftware.VisualAnalyser
-PackageVersion: "26.00"
+PackageVersion: "26.10"
 PackageLocale: en-US
 Publisher: Sillanum Software
 PublisherUrl: https://www.sillanumsoft.org/
@@ -42,4 +42,4 @@ Description: |-
   - Automatic Check for new version of VA (main menu, help item).
 ReleaseNotesUrl: https://www.sillanumsoft.org/news.htm
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
