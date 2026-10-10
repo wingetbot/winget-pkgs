@@ -2,17 +2,17 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Sourcegraph.Amp
-PackageVersion: 0.0.1791576029-g70ed39
+PackageVersion: 0.0.1791590492-ge25e83
 InstallerType: portable
 Commands:
 - amp
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.VCRedist.2015+.x64
-ReleaseDate: 2026-10-09
+ReleaseDate: 2026-10-10
 Installers:
 - Architecture: x64
-  InstallerUrl: https://static.ampcode.com/cli/0.0.1791576029-g70ed39/amp-windows-x64-baseline.exe
-  InstallerSha256: 394A1DA1183AE2089751DF8C245424ACC1C2447BF21A446B9D0DBED51229AB3B
+  InstallerUrl: https://static.ampcode.com/cli/0.0.1791590492-ge25e83/amp-windows-x64-baseline.exe
+  InstallerSha256: 4535D59B49B1284B0F84CC2AE26266495BB5044B8C8BDBA632BB3FA65477BC4D
 ManifestType: installer
 ManifestVersion: 1.12.0
